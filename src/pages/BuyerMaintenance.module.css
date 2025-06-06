@@ -1,0 +1,467 @@
+.buyerMaintenanceChild {
+  position: absolute;
+  bottom: 93px;
+  left: 0;
+  background-color: var(--color-lavender);
+  width: 1280px;
+  height: 59px;
+}
+.wereTakingOut {
+  position: relative;
+  line-height: var(--font-size-lg);
+}
+.wereTakingOutOfForMainteWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-family: var(--font-family-en);
+}
+.maintenanceImplementationDat {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 150%;
+}
+.maintenanceImplementationDatWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.monthDdYyyy {
+  position: relative;
+  font-size: var(--font-size-md-20);
+  line-height: var(--font-size-md-20);
+  font-family: var(--font-family-en);
+  color: var(--Color-Light-primary);
+}
+.pleaseNoteThat {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 16px;
+}
+.frameGroup,
+.pleaseNoteThatTheScheduleWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pleaseNoteThatTheScheduleWrapper {
+  font-size: 12px;
+}
+.frameGroup {
+  border-radius: var(--Corner-xs-corner);
+  background-color: var(--Color-Surface-surface-container-low);
+  padding: var(--Space-spacing-md-16);
+  gap: var(--Space-spacing-md-16);
+  font-size: var(--font-size-md);
+}
+.thankYouFor {
+  margin: 0;
+}
+.thankYouForContainer {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.25px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.frameParent,
+.thankYouForUsingShippasOWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.thankYouForUsingShippasOWrapper {
+  width: 585px;
+  font-size: 14px;
+}
+.frameParent {
+  position: absolute;
+  top: 80px;
+  left: calc(50% - 302px);
+  width: 604px;
+  gap: var(--Space-spacing-md-24);
+}
+.logoIcon {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  width: 120px;
+  height: 32px;
+  object-fit: cover;
+}
+.frameChild,
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: 195.5px;
+  width: 170.9px;
+  height: 164.5px;
+}
+.frameItem {
+  top: 10px;
+  left: 0;
+  width: 162.6px;
+  height: 156.5px;
+  object-fit: contain;
+}
+.frameInner {
+  width: 3.4px;
+  position: relative;
+  border-radius: 1.1px;
+  background-color: var(--Color-Light-Warning-container);
+  height: 28.5px;
+}
+.rectangleParent {
+  position: absolute;
+  top: 68.3px;
+  left: 69.5px;
+  border-radius: 2.3px;
+  background-color: var(--Color-Light-warning);
+  width: 69.5px;
+  height: 34.2px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-4);
+  box-sizing: border-box;
+  gap: 0;
+}
+.frameChild10 {
+  width: 3.4px;
+  position: relative;
+  border-radius: 1.1px;
+  background-color: var(--Color-Light-error);
+  height: 28.5px;
+}
+.rectangleGroup {
+  position: absolute;
+  top: 68.3px;
+  left: 0;
+  border-radius: 2.3px;
+  background-color: var(--color-firebrick);
+  width: 69.5px;
+  height: 34.2px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-4);
+  box-sizing: border-box;
+  gap: 0;
+}
+.frameChild21 {
+  width: 3.4px;
+  position: relative;
+  border-radius: 1.1px;
+  background-color: var(--color-steelblue-100);
+  height: 28.5px;
+}
+.rectangleContainer {
+  position: absolute;
+  top: 34.2px;
+  left: 69.5px;
+  border-radius: 2.3px;
+  background-color: var(--color-steelblue-200);
+  width: 69.5px;
+  height: 34.2px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-4);
+  box-sizing: border-box;
+  gap: 0;
+}
+.frameChild32 {
+  width: 3.4px;
+  position: relative;
+  border-radius: 1.1px;
+  background-color: var(--color-lightblue);
+  height: 28.5px;
+}
+.rectangleParent1,
+.rectangleParent2 {
+  position: absolute;
+  top: 34.2px;
+  left: 0;
+  border-radius: 2.3px;
+  background-color: var(--color-silver);
+  width: 69.5px;
+  height: 34.2px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-4);
+  box-sizing: border-box;
+  gap: 0;
+}
+.rectangleParent2 {
+  top: 0;
+  left: 35.9px;
+  background-color: var(--Color-Light-warning);
+}
+.frameIcon,
+.frameParent2 {
+  position: absolute;
+  top: 0;
+  left: 8px;
+  width: 138.9px;
+  height: 102.5px;
+}
+.frameIcon {
+  top: 68.3px;
+  left: 0;
+  width: 243.9px;
+  height: 77.4px;
+}
+.frameChild54,
+.frameChild55 {
+  position: absolute;
+  top: 3.4px;
+  left: 0;
+  background-color: var(--color-gray);
+  width: 38.1px;
+  height: 11.4px;
+}
+.frameChild55 {
+  top: 0;
+  background-color: var(--color-darkslategray);
+  height: 3.4px;
+}
+.frameChild56,
+.rectangleParent3 {
+  position: absolute;
+  top: 0.6px;
+  left: 21.6px;
+  width: 38.1px;
+  height: 14.8px;
+}
+.frameChild56 {
+  top: 0;
+  left: 0;
+  border-radius: 6.83px 6.83px 0 0;
+  background-color: var(--color-gray);
+  width: 62.1px;
+  height: 42.1px;
+}
+.frameChild57,
+.frameChild58,
+.frameChild59,
+.frameChild60 {
+  position: absolute;
+  top: 9.1px;
+  left: 3.4px;
+  background-color: var(--color-skyblue);
+  width: 24.5px;
+  height: 8px;
+}
+.frameChild58,
+.frameChild59,
+.frameChild60 {
+  left: 34.7px;
+}
+.frameChild59,
+.frameChild60 {
+  top: 20.5px;
+}
+.frameChild60 {
+  left: 3.4px;
+}
+.frameChild61,
+.rectangleParent4 {
+  position: absolute;
+  top: 15.4px;
+  left: 9.7px;
+  width: 62.1px;
+  height: 42.1px;
+}
+.frameChild61 {
+  top: 0;
+  left: 0;
+  border-radius: 4.55px 0 0 0;
+  background-color: var(--color-gray);
+  width: 83.7px;
+  height: 20.5px;
+}
+.frameChild62,
+.frameChild63,
+.frameChild64,
+.frameChild65,
+.frameChild66 {
+  position: absolute;
+  top: 5.7px;
+  left: 28.5px;
+  border-radius: 1.1px;
+  background-color: var(--color-skyblue);
+  width: 24.5px;
+  height: 3.4px;
+}
+.frameChild63,
+.frameChild64,
+.frameChild65,
+.frameChild66 {
+  left: 15.9px;
+  width: 5.1px;
+}
+.frameChild64,
+.frameChild65,
+.frameChild66 {
+  left: 71.7px;
+}
+.frameChild65,
+.frameChild66 {
+  left: 4.6px;
+}
+.frameChild66 {
+  left: 60.3px;
+}
+.frameParent1,
+.frameParent3,
+.rectangleParent5 {
+  position: absolute;
+  top: 57.5px;
+  left: 0;
+  width: 83.7px;
+  height: 20.5px;
+}
+.frameParent1,
+.frameParent3 {
+  top: 10.8px;
+  left: 150.9px;
+  height: 78px;
+}
+.frameParent1 {
+  top: 0;
+  left: 0;
+  width: 243.9px;
+  height: 145.7px;
+}
+.frameChild67,
+.frameChild68,
+.frameChild69,
+.frameChild70,
+.frameChild71 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-lightsteelblue);
+  width: 219.8px;
+  height: 13.1px;
+}
+.frameChild68,
+.frameChild69,
+.frameChild70,
+.frameChild71 {
+  top: 26.2px;
+  left: 48.4px;
+  width: 169.7px;
+}
+.frameChild69,
+.frameChild70,
+.frameChild71 {
+  top: 13.1px;
+  left: 29.6px;
+  width: 164.5px;
+}
+.frameChild70,
+.frameChild71 {
+  top: 39.3px;
+  left: 27.3px;
+  width: 136.6px;
+}
+.frameChild71 {
+  top: 62.6px;
+  left: 100.2px;
+  width: 39.3px;
+  height: 23.3px;
+}
+.rectangleParent6 {
+  position: absolute;
+  top: 146.3px;
+  left: 5.7px;
+  width: 219.8px;
+  height: 86px;
+}
+.frameContainer,
+.frameDiv {
+  position: absolute;
+  top: 79px;
+  left: 52.7px;
+  width: 244.2px;
+  height: 232.3px;
+}
+.frameContainer {
+  top: 0;
+  left: 843px;
+  width: 366.4px;
+  height: 311.3px;
+}
+.frameChild72,
+.frameChild73 {
+  position: absolute;
+  top: 0;
+  left: 8.8px;
+  background-color: var(--color-darkgray);
+  width: 7.8px;
+  height: 54.5px;
+}
+.frameChild73 {
+  left: 55.5px;
+}
+.frameChild74,
+.frameChild75 {
+  position: absolute;
+  top: 5.4px;
+  left: 0;
+  border-radius: var(--br-1);
+  background-color: var(--color-gold);
+  width: 73px;
+  height: 14.6px;
+}
+.frameChild75 {
+  top: 28.7px;
+}
+.frameParent4,
+.rectangleParent7,
+.rectangleParent8 {
+  position: absolute;
+  top: 0;
+  left: 83px;
+  width: 73px;
+  height: 54px;
+}
+.frameParent4,
+.rectangleParent8 {
+  left: 0;
+}
+.frameParent4 {
+  top: 108px;
+  width: 156px;
+}
+.shipimage {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 577px);
+  width: 1217px;
+  height: 317px;
+}
+.buyerMaintenance {
+  width: 100%;
+  position: relative;
+  background-color: var(--Color-Light-secondary-container);
+  height: 700px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--Color-Surface-on-surface);
+  font-family: Roboto;
+}

@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* Color */
+  --color-gold: #efbe0e;
+  --color-darkgray: #989898;
+  --color-lightsteelblue: rgba(165, 186, 211, 0.5);
+  --color-skyblue: #50c7ec;
+  --color-darkslategray: #2d3f50;
+  --color-gray: #fefefe;
+  --color-lightblue: #cbdfe9;
+  --color-silver: #c9c9c9;
+  --color-steelblue-200: #156188;
+  --color-steelblue-100: #0371aa;
+  --color-firebrick: #a8070f;
+  --color-lavender: #d7e1ed;
+
+  /* Padding */
+  --padding-4: 4px;
+
+  /* BorderRadius */
+  --br-1: 1px;
+
+  /* Figma Variables */
+
+  /* Spacing */
+  --font-size-md-20: 20px;
+  --font-size-md: 16px;
+  --Corner-xs-corner: 4px;
+  --Space-spacing-md-16: 16px;
+  --font-size-lg: 24px;
+  --Space-spacing-sm-8: 8px;
+  --Space-spacing-md-24: 24px;
+
+  /* Color */
+  --Color-Light-error: #ba1a1a;
+  --Color-Light-Warning-container: #f3c16d;
+  --Color-Light-warning: #ef970e;
+  --Color-Light-primary: #3a52cb;
+  --Color-Surface-surface-container-low: #fcfcff;
+  --Color-Surface-on-surface: #1b1b1f;
+  --Color-Light-secondary-container: #e7f2ff;
+
+  /* Font */
+  --font-family-en: Roboto;
+}
